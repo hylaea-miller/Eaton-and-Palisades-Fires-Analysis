@@ -4,46 +4,54 @@
 
 Date: 11/22/2025
 
-## Description
+## About
 
-This repository contains all the materials for Homework Assignment 4 Task 2 of the course EDS 220: Working with Environmental Datase.
+This repository contains all the materials for Homework Assignment 4 Task 2 of the course EDS 220: Working with Environmental Datasets.
 
 For this assignment, I explored the use of false color imagery to visualize fire scars from the Palisades and Eaton fires. The analysis includes data processing, visualization, and interpretation of the results.
 
-## Repository Content
+## Repository Structure
 
 The Project directory contains:
 
 ```         
 eds220-hwk4
 │--  README.md
-│--  hwk4-task2-false-color-YOURLASTNAME.ipynb
+│--  hwk4-task2-false-color-MILLER.ipynb
 |--  .gitignore
+
 ```
 
 ## Data Access
 
-You can find the datasets used in this project it here: - [Landsat](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) - [Fire Perimeters ](https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about)
+You can find the datasets used in this project in here: - [Landsat](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) - [Fire Perimeters ](https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about)
 
-‌
 ## How to Run
 
 Fork and clone this repository to your local environment.
 
-Open the `.qmd` (Quarto) document.
+Download the required datasets from the links provided above, and place all files in the `data/` directory.
 
-Ensure that the required python packages are installed.
+Ensure you have the necessary Python packages installed.
 
-Render the document to generate the analysis and maps in PDF format.
+Open the Jupyter Notebook file `hwk4-task2-false-color-MILLER.ipynb` in your Jupyter environment.
+
+Run the notebook cells sequentially to reproduce the analysis and visualizations.
 
 ## Author
 
 Hylaea Miller
 
-# Acknowledgements
+# References
 
-Microsoft Planetary Computer. (2025). Microsoft.com. https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
-Date of accesss: 11/19/2025
+Microsoft Planetary Computer. (2025). Landsat Collection 2 Level-2. https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2.
+[Accessed: November 19, 2025]
 
-NIFC FIRIS. Palisades and Eaton Dissolved Fire Perimeters (2025). Lacity.org. https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
-Date of accesss: 11/19/2025
+National Interagency Fire Center (NIFC). (2025). Palisades and Eaton 
+Fire Perimeters [Dataset]. Los Angeles GeoHub. https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about 
+[Accessed: November 19, 2025]‌
+
+NASA Earth Observatory. (2014, March 14). Why is that Forest Red and that Cloud Blue? How to Interpret a False-Color Satellite Image. NASA Science. https://science.nasa.gov/earth/earth-observatory/how-to-interpret-a-false-color-satellite-image/
+[Accessed: November 20, 2025]
+
+‌
