@@ -24,7 +24,9 @@ eds220-hwk4
 
 ## Data Access
 
-You can find the datasets used in this project in here: - [Landsat](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) - [Fire Perimeters ](https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about)
+You can find the datasets used in this project in here: 
+- [Landsat](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) 
+- [Fire Perimeters ](https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about)
 
 ## How to Run
 
